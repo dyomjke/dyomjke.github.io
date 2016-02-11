@@ -1,0 +1,30 @@
+*  {		
+			font-family: tahoma;
+			font-size: 14px;
+		}
+
+body {									
+			background-color: #eeeeee;
+
+		}
+.main {
+			margin:  auto;
+			padding: 35px;
+			border: solid #dddddd 2px; 
+			width: 500px;
+			height: 99%;
+			background-color: white;
+	    }
+		
+.photo, 
+h2     {				
+			text-align: center;
+			
+		}
+.photo img  {
+			height: 180px;
+}
+
+.photo  {
+			height: 180px;
+}
