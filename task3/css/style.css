@@ -1,6 +1,6 @@
 body {
       background-color: #f9f9f9;
-      font-family: arial;
+      font-family: Arial;
 }
 div .nav {                 /* Left menu navigation */
       width: 238px;
@@ -25,13 +25,12 @@ div .nav {                 /* Left menu navigation */
 .nav li:first-child  {      /* Delete border top for first-child */
       border-top: none;
 }
-.nav ul :hover  {
+.nav ul :hover  {  /* remove text and change bg color*/
       padding-left: 35px;
       background-color: #f9f9f9;
 }
 
-.content  {
-      position: relative;
+.content  {   /* Content position*/
       float: right;
       margin-top: 40px;
       margin-right: 48px;
@@ -41,7 +40,7 @@ div .nav {                 /* Left menu navigation */
 
 
 
-.container {         /* content */
+.container {         /* Page position in browser */
       margin: 0 auto;
       width: 1060px;
       height: 964px;
@@ -59,7 +58,7 @@ div .nav {                 /* Left menu navigation */
 header  {                 /* Header */
       height: 170px;
 }
-.main-list  {
+.main-list  {  /* Mein menu position*/
       margin-top: 40px;
       margin-left: 46px;
       width: 966px;
@@ -67,14 +66,12 @@ header  {                 /* Header */
       background-color: #535353;
 
 }
-.main-list li {
+.main-list li {    /*  Main menu List position*/
       padding: 13px 50px 11px 25px;
       display: inline-block;
-      text-decoration: none;
-      vertical-align: middle;
 }
 
-.main-list a  {
+.main-list a  {  /* Main menu links list */
 
       font-size: 14.67px;
       text-decoration: none;
@@ -90,36 +87,31 @@ header  {                 /* Header */
       border-right: solid #838383 1px;
 }                              /* Header OFF */
 
-.content p  {
+.content p  {  /* Some text in content */
       margin: 40px 30px 60px 25px;
       font-size: 13px;
       line-height: 1.5;
       color: #2c2c2c;
-
-
 }
 
 
 
-footer  {
+footer  { /* Footer position*/
       margin: 60px 48px 60px 46px;
       width: 966px;
       height: 40px;
-      position: relative;
       clear: both;
       background-color: #e1e1e1;
-      /*border: solid #c8c8c8 1px;*/
 }
 
-footer li {
+footer li {  /* Footers list decoration and position*/
       display: inline-block;
       text-decoration: none;
       padding:15px 95px 15px 25px;
       font-size: 13px;
-
 }
 
-footer a {
+footer a { /*Decorations of footer links */
       color: #2c2c2c;
       text-decoration: none;
 }
