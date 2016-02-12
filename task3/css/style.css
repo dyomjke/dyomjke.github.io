@@ -1,0 +1,129 @@
+body {
+      background-color: #f9f9f9;
+      font-family: arial;
+}
+div .nav {                 /* Left menu navigation */
+      width: 238px;
+      height: 240px;
+      float: left;
+      margin-left: 46px;
+      margin-top: 40px;
+      border: solid #c8c8c8 1px;
+      font-size: 13px;
+}
+
+.nav a  {                        /* links of left menu */
+      text-decoration: none;
+      color: #2c2c2c;
+}
+
+
+.nav li {                     /* List of left menu */
+      border-top: solid #c8c8c8 1px;
+      padding: 13px 23px;
+}
+.nav li:first-child  {      /* Delete border top for first-child */
+      border-top: none;
+}
+.nav ul :hover  {
+      padding-left: 35px;
+      background-color: #f9f9f9;
+}
+
+.content  {
+      position: relative;
+      float: right;
+      margin-top: 40px;
+      margin-right: 48px;
+      width: 677px;
+      height: 640px;
+}
+
+
+
+.container {         /* content */
+      margin: 0 auto;
+      width: 1060px;
+      height: 964px;
+      background-color:#ffffff;
+      box-shadow: 0 0 6px #dbdbdb;
+
+}
+
+
+.logo  {                  /* logo FITNES */
+      margin-left: 45px;
+      padding-top: 48px;
+}
+
+header  {                 /* Header */
+      height: 170px;
+}
+.main-list  {
+      margin-top: 40px;
+      margin-left: 46px;
+      width: 966px;
+      height: 40px;
+      background-color: #535353;
+
+}
+.main-list li {
+      padding: 13px 50px 11px 25px;
+      display: inline-block;
+      text-decoration: none;
+      vertical-align: middle;
+}
+
+.main-list a  {
+
+      font-size: 14.67px;
+      text-decoration: none;
+      color: #ffffff;
+      text-shadow: 1px 1px 0 rgb(53,52,52);
+}
+
+.main-list li:hover  {
+      padding-left: 24px;
+      padding-right: 49px;
+      background-color: #343434;
+      border-left: solid #838383 1px;
+      border-right: solid #838383 1px;
+}                              /* Header OFF */
+
+.content p  {
+      margin: 40px 30px 60px 25px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #2c2c2c;
+
+
+}
+
+
+
+footer  {
+      margin: 60px 48px 60px 46px;
+      width: 966px;
+      height: 40px;
+      position: relative;
+      clear: both;
+      background-color: #e1e1e1;
+      /*border: solid #c8c8c8 1px;*/
+}
+
+footer li {
+      display: inline-block;
+      text-decoration: none;
+      padding:15px 95px 15px 25px;
+      font-size: 13px;
+
+}
+
+footer a {
+      color: #2c2c2c;
+      text-decoration: none;
+}
+
+footer li :hover  {
+      text-decoration: underline;
+}
