@@ -2,7 +2,8 @@ body {
       background-color: #f9f9f9;
       font-family: Arial;
 }
-div .nav {                 /* Left menu navigation */
+          /* Left menu navigation */
+.nav {
       width: 238px;
       height: 240px;
       float: left;
@@ -12,35 +13,44 @@ div .nav {                 /* Left menu navigation */
       font-size: 13px;
 }
 
-.nav a  {                        /* links of left menu */
-      text-decoration: none;
-      color: #2c2c2c;
-}
-
-
-.nav li {                     /* List of left menu */
+            /* List of left menu */
+.nav  li {
+      float: left;
+      width: 238px;
       border-top: solid #c8c8c8 1px;
-      padding: 13px 23px;
+      background-color: #ffffff;
+      color: #656363;
 }
-.nav li:first-child  {      /* Delete border top for first-child */
+          /* Links of left menu */
+.nav li a  {
+      display: block;
+      padding: 13px 23px;
+      background-color: #ffffff;
+      text-decoration: none;
+      color: #656363;
+}
+        /* Delete border top for first-child */
+.nav li:first-child  {
       border-top: none;
 }
-.nav ul :hover  {  /* remove text and change bg color*/
+
+        /* remove text and change bg color*/
+.nav li :hover  {
+      display: block;
       padding-left: 35px;
       background-color: #f9f9f9;
+      color: #2c2c2c;
 }
-
-.content  {   /* Content position*/
+        /* Content position*/
+.content  {
       float: right;
       margin-top: 40px;
       margin-right: 48px;
       width: 677px;
       height: 640px;
 }
-
-
-
-.container {         /* Page position in browser */
+         /* Page position in browser */
+.container {
       margin: 0 auto;
       width: 1060px;
       height: 964px;
@@ -48,17 +58,17 @@ div .nav {                 /* Left menu navigation */
       box-shadow: 0 0 6px #dbdbdb;
 
 }
-
-
-.logo  {                  /* logo FITNES */
+        /* logo FITNES */
+.logo  {
       margin-left: 45px;
       padding-top: 48px;
 }
-
-header  {                 /* Header */
+        /* Header */
+header  {
       height: 170px;
 }
-.main-list  {  /* Mein menu position*/
+        /* Main menu position*/
+.main-list  {
       margin-top: 40px;
       margin-left: 46px;
       width: 966px;
@@ -66,13 +76,13 @@ header  {                 /* Header */
       background-color: #535353;
 
 }
-.main-list li {    /*  Main menu List position*/
-      padding: 13px 50px 11px 25px;
+        /*  Main menu List position*/
+.main-list li {
+      padding: 13px 25px 11px 25px;
       display: inline-block;
 }
-
-.main-list a  {  /* Main menu links list */
-
+         /* Main menu links list */
+.main-list a  {
       font-size: 14.67px;
       text-decoration: none;
       color: #ffffff;
@@ -81,37 +91,36 @@ header  {                 /* Header */
 
 .main-list li:hover  {
       padding-left: 24px;
-      padding-right: 49px;
+      padding-right: 24px;
       background-color: #343434;
       border-left: solid #838383 1px;
       border-right: solid #838383 1px;
-}                              /* Header OFF */
-
-.content p  {  /* Some text in content */
+}
+/* Header OFF */
+          /* text in content */
+.content p  {
       margin: 40px 30px 60px 25px;
       font-size: 13px;
       line-height: 1.5;
       color: #2c2c2c;
 }
-
-
-
-footer  { /* Footer position*/
+        /* Footer position*/
+footer  {
       margin: 60px 48px 60px 46px;
       width: 966px;
       height: 40px;
       clear: both;
       background-color: #e1e1e1;
 }
-
-footer li {  /* Footers list decoration and position*/
+        /* Footers list decoration and position*/
+footer li {
       display: inline-block;
       text-decoration: none;
       padding:15px 95px 15px 25px;
       font-size: 13px;
 }
-
-footer a { /*Decorations of footer links */
+        /*Decorations of footer links */
+footer a {
       color: #2c2c2c;
       text-decoration: none;
 }
