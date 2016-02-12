@@ -2,7 +2,7 @@ body {
       background-color: #f9f9f9;
       font-family: Arial;
 }
-          /* Left menu navigation */
+          /* Left menu navigation -----------------------*/
 .nav {
       width: 238px;
       height: 240px;
@@ -41,7 +41,7 @@ body {
       background-color: #f9f9f9;
       color: #2c2c2c;
 }
-        /* Content position*/
+        /* Content position---------------------------*/
 .content  {
       float: right;
       margin-top: 40px;
@@ -49,7 +49,7 @@ body {
       width: 677px;
       height: 640px;
 }
-         /* Page position in browser */
+         /* Page position in browser------------------- */
 .container {
       margin: 0 auto;
       width: 1060px;
@@ -63,7 +63,7 @@ body {
       margin-left: 45px;
       padding-top: 48px;
 }
-        /* Header */
+        /* Header ------------------------------------*/
 header  {
       height: 170px;
 }
@@ -73,11 +73,12 @@ header  {
       margin-left: 46px;
       width: 966px;
       height: 40px;
-      background-color: #535353;
+      background: linear-gradient(to top, #444343,#5e5e5e);
 
 }
         /*  Main menu List position*/
 .main-list li {
+      margin-right: 35px;
       padding: 13px 25px 11px 25px;
       display: inline-block;
 }
@@ -104,7 +105,7 @@ header  {
       line-height: 1.5;
       color: #2c2c2c;
 }
-        /* Footer position*/
+        /* Footer position--------------------------------*/
 footer  {
       margin: 60px 48px 60px 46px;
       width: 966px;
