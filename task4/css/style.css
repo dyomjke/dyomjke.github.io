@@ -7,14 +7,17 @@ body {
     height: 1020px;
     background: url(../img/bg.jpg);
 }
-
+/*main conntent container*/
 .container {
+    position: relative;
     margin: 0 auto;
     width: 1000px;
     height: 988px;
     background-color: #ffffff;
     box-shadow: 0 6px 10px #031d28;
+
 }
+/*Header*/
 header {
     margin: 0 auto;
     width: 1000px;
@@ -22,7 +25,7 @@ header {
     background-color: #ffffff;
     border-bottom: solid #128aa7 1px;
 }
-
+/* Логотип приплывает и становится слева в header*/
 header img {
     float: left;
     margin-top: 10px;
@@ -30,17 +33,90 @@ header img {
     width: 283px;
     height: 164px;
 }
-
-header ul {
-    float: right;
-    margin-top: 10px;
-    margin-right: 33px;
+/*список контактов в верхнем правом углу относительно container*/
+.contacts {
+    position: absolute;
+    left: 845px;
+    top: 10px;
     color: #128aa7;
     font-size: 12px;
     line-height: 1.5;
 }
-
-header ul :first-child {
+/*Первая строка в списке будет жирнее*/
+.contacts :first-child {
     font-weight: 500;
     font-size: 12px;
+}
+/*очистка потока и прижатие к правому краю .country*/
+.country {
+    clear:right;
+    float:right;
+    margin-top: 114px;
+    margin-right: 10px;
+}
+/*оформление картинок и ссылок в списке стран*/
+.india,
+.nepal,
+.tibet,
+.butan,
+.maldivi {
+    float:left;
+    width: 60px;
+    height: 42px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/*Отдельно для Шри-Ланки увеличил размер блока*/
+.sri-lanka {
+  float:left;
+  width: 64px;
+  height: 42px;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+/*Указываем значки стран как фон к блокам списка*/
+.india {
+    background-image: url(../img/india.png);
+}
+
+.nepal {
+    background-image: url(../img/nepal.png);
+}
+
+.tibet {
+    background-image: url(../img/tibet.png);
+}
+
+.butan {
+    background-image: url(../img/butan.png);
+}
+
+.sri-lanka{
+    background-image: url(../img/sri-lanka.png);
+}
+
+.maldivi {
+    background-image: url(../img/maldives.png);
+}
+/*Закончил указывать значки как фон-------------------------*/
+
+/*Ссылки в виде блоков и отступ от картинки*/
+.country a {
+    display:block;
+    color: #128aa7;
+    font-size: 12px;
+    padding-top: 42px;
+}
+/*Пододвигаем ссылки под картинками симитрично*/
+.sri-lanka a,
+.maldivi a {
+    padding-left: 5px;
+}
+/*Пододвигаем ссылки под картинками симитрично*/
+.india a,
+.nepal a,
+.tibet a,
+.butan a {
+    padding-left: 14px;
 }
