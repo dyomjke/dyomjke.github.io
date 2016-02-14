@@ -6,7 +6,6 @@ body {
     width: 100%;
     height: 1020px;
     background: url(../img/bg.jpg);
-    z-index: 1;
 }
 /*main conntent container*/
 .container {
@@ -123,7 +122,8 @@ header img {
     padding-left: 14px;
 }
 
-.menu {
+
+.panel {
     position: relative;
     margin-top: -1px;
     width: 1000px;
@@ -131,21 +131,50 @@ header img {
     background: linear-gradient(to top, #303030, #373737);
     border-bottom: solid #000000 1px;
     box-shadow: 0 0px 6px #000000;
-    z-index: 3;
 }
 
-.menu li {
-    display:inline-block;
-    padding-top: 7px;
-    margin-left: 64px;
-    height: 28px;
-
-
+.panel ul {
+    margin-left: 130px;
 }
 
-.menu a {
+
+.panel a {
+    font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.panel ul li {
+    position: relative;
+    display: inline-block;
+    margin: 8px 35px;
+    height: 16px;
+    cursor: pointer;
+    height: 28px;
+}
+
+
+.panel ul li ul {
+display: none; /* скрываем выпадающе меню */
+position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
+left: -128px;
+top: 20px; /* высоту лучше не делать большей высоты пункта меню первого уровня, иначе попасть на подменю будет проблематично */
+width: 155px;
+background: #303030;
+box-shadow: 0 0px 6px #000000;
+}
+ .panel ul li ul li {
+float: none;
+display: block;
+background: none;
+margin: 0 auto;
+}
+ .panel ul li:hover ul {
+display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
+}
+
+
+
 }
 .triangels {
   position: absolute;
@@ -153,44 +182,11 @@ header img {
   top: 15px;
 }
 
-.drop-travels,
-.drop-service,
-.drop-partner {
-    width: 140px;
-    height: 120px;
-    position: absolute;
-    z-index: -1;
-    background-color: #303030;
-    box-shadow: 0 5px 10px #000000;
-}
-.drop-travels {
-    left: 175px;
-}
-.drop-service {
-    left: 315px;
-}
 
-.drop-partner {
-    left: 450px;
-}
-
-.drop-travels a,
-.drop-service a,
-.drop-partner a {
-    text-decoration: none;
-    color: #ffffff;
-    padding-left: 10px;
-}
-
-.drop-travels li,
-.drop-service li,
-.drop-partner li {
-    padding-top: 5px;
-}
 
 nav {
+    clear: both;
     float: left;
-    z-index: 5;
     width: 209px;
     height: 3000px;
     background-color: #edeef0;
@@ -198,7 +194,6 @@ nav {
 
 main {
     margin: 0 auto 0 auto;
-    z-index: 5;
     width: 578px;
     height: 3000px;
     background-color: #ffffff;
@@ -223,4 +218,5 @@ h2 {
 nav p,
 aside p {
     text-align: center;
+    padding: 3px;
 }
