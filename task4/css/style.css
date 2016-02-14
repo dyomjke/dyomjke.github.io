@@ -15,7 +15,7 @@ body {
     height: 988px;
     background-color: #ffffff;
     box-shadow: 0 6px 10px #031d28;
-    overflow: hidden;
+   /* overflow: hidden;*/
 
 }
 /*Header*/
@@ -157,9 +157,9 @@ header img {
 .panel ul li ul {
 display: none; /* скрываем выпадающе меню */
 position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
-left: -128px;
+left: -130px;
 top: 20px; /* высоту лучше не делать большей высоты пункта меню первого уровня, иначе попасть на подменю будет проблематично */
-width: 155px;
+width: 160px;
 background: #303030;
 box-shadow: 0 0px 6px #000000;
 }
@@ -167,7 +167,7 @@ box-shadow: 0 0px 6px #000000;
 float: none;
 display: block;
 background: none;
-margin: 0 auto;
+padding: 3 0 3 3;
 }
  .panel ul li:hover ul {
 display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
@@ -188,14 +188,14 @@ nav {
     clear: both;
     float: left;
     width: 209px;
-    height: 3000px;
+    height: 550px;
     background-color: #edeef0;
 }
 
 main {
     margin: 0 auto 0 auto;
     width: 578px;
-    height: 3000px;
+    height: 550px;
     background-color: #ffffff;
     border-left: solid #c7cacf 2px;
     border-right: solid #c7cacf 2px;
@@ -205,7 +205,7 @@ aside {
     clear: right;
     float:right;
     width: 209px;
-    height: 3000px;
+    height: 550px;
     background-color: #edeef0;
 }
 h2 {
@@ -218,5 +218,11 @@ h2 {
 nav p,
 aside p {
     text-align: center;
-    padding: 3px;
+    padding: 5px;
+}
+
+.copy {
+    padding-top:5px;
+    text-align: center;
+    color: #ffffff;
 }
