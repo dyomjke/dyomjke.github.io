@@ -7,6 +7,15 @@ body {
     width: 100%;
     background: url(../img/bg.jpg);
 }
+
+.container {
+    /*clear: both;*/
+    width: 1000px;
+    margin: 0 auto;  
+    background-image: url("../img/bg-container.jpg");
+    background-repeat: repeat-y;
+    
+}
 /*main conntent container*/
 
 .main-container {
@@ -129,7 +138,7 @@ header {
 .panel {
     clear: both;
     position: relative;
-    margin-top: -1px;
+    margin-top: -2px;
     width: 1000px;
     height: 28px;
     background: linear-gradient(to top, #303030, #373737);
@@ -181,41 +190,38 @@ header {
 
 
 
-}
-.triangels {
+
+.arrows {
     position: absolute;
-    left: 290px;
+    left: 254px;
     top: 15px;
 }
 
-.continer {
-    clear: both;
-    width: 1000px;
-    margin: 0 auto;  
-}
+
 
 nav {
     float: left;
     width: 209px;
-    background-color: #edeef0;
+    /*background-color: #edeef0;*/
 }
 
 main {
     clear:right;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 578px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;
     border-left: solid #c7cacf 2px;
-    border-right: solid #c7cacf 2px;
+    border-right: solid #c7cacf 2px;*/
 }
 
 aside {
     float:right;
     width: 209px;
-    background-color: #edeef0;
+    /*background-color: #edeef0;*/
 }
 
 h2 {
+    margin-top: 5px;
     font-size: 18px;
     font-weight: 600;
     color: #424c43;
@@ -226,6 +232,7 @@ nav p,
 aside p {
     text-align: center;
     padding: 5px;
+    line-height: 1.4;
 }
 
 .copy {
@@ -233,3 +240,9 @@ aside p {
     text-align: center;
     color: #ffffff;
 }
+
+footer {
+    margin-top: 5px;
+    height: 30px;
+}
+
