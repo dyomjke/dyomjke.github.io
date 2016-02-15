@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-    /*clear: both;*/
     width: 1000px;
     margin: 0 auto;  
     background-image: url("../img/bg-container.jpg");
@@ -149,31 +148,34 @@ header {
 
 
 .panel ul {
-    margin-left: 130px;
+    margin-left: 20%;
 }
 
 
 .panel a {
+    display: block;
+    margin-top: 8px;
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+
 }
 
 .panel ul li {
     position: relative;
     display: inline-block;
-    margin: 8px 35px;
+    margin-right: 7.2%;
     height: 16px;
-    cursor: pointer;
+    /*cursor: pointer;*/
     height: 28px;
 }
 
 
 .panel ul li ul {
     display: none; /* скрываем выпадающе меню */
-    position: absolute; /* чтобы положение подменю не влияло на окружение и легко было позиционировать */
-    left: -130px;
-    top: 20px; /* высоту лучше не делать большей высоты пункта меню первого уровня, иначе попасть на подменю будет проблематично */
+    position: absolute; 
+    left: -10px;
+    top: 24px; 
     width: 160px;
     background: #303030;
     box-shadow: 0 0px 6px #000000;
@@ -182,19 +184,20 @@ header {
     float: none;
     display: block;
     background: none;
-    padding: 3 0 3 3;
+   /* margin: 5 0 0 10;*/
 }
  .panel ul li:hover ul {
     display: block; /* при наведении на пункт меню первого уровня, показывем подменю */
 }
 
-
-
+.panel ul li ul li a {
+    margin-left: 10px;
+}
 
 .arrows {
     position: absolute;
-    left: 254px;
-    top: 15px;
+    left: 28.4%;
+    top: 13.5px;
 }
 
 
@@ -202,22 +205,16 @@ header {
 nav {
     float: left;
     width: 209px;
-    /*background-color: #edeef0;*/
 }
 
 main {
     clear:right;
-    /*margin: 0 auto;*/
     width: 578px;
-    /*background-color: #ffffff;
-    border-left: solid #c7cacf 2px;
-    border-right: solid #c7cacf 2px;*/
 }
 
 aside {
     float:right;
     width: 209px;
-    /*background-color: #edeef0;*/
 }
 
 h2 {
