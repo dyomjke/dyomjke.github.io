@@ -1,11 +1,12 @@
 * {
-  font-family: tahoma;
+  
 }
 
 body {
     position: relative;
     width: 100%;
     background: url(../img/bg.jpg);
+    font-family: sans-serif;
 }
 
 .container {
@@ -119,7 +120,7 @@ header {
 .country a {
     display:block;
     color: #128aa7;
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 42px;
 }
 /*Пододвигаем ссылки под картинками симитрично*/
@@ -151,6 +152,22 @@ header {
     margin-left: 20%;
 }
 
+.arrow1,
+.arrow2,
+.arrow3 {
+    position: absolute;
+    top: 14px;
+}
+
+.arrow1{
+    left:290px;
+}
+.arrow2 {
+    left: 395px;
+}
+.arrow3 {
+    left: 527px;
+}
 
 .panel a {
     display: block;
@@ -158,6 +175,7 @@ header {
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+    font-family: tahoma;
 
 }
 
