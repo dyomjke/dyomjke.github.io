@@ -144,6 +144,7 @@ header {
     background: linear-gradient(to top, #303030, #373737);
     border-bottom: solid #000000 1px;
     box-shadow: 0 0px 6px #000000;
+    z-index: 2;
 }
 
 
@@ -163,10 +164,10 @@ header {
     left:290px;
 }
 .arrow2 {
-    left: 395px;
+    left: 396px;
 }
 .arrow3 {
-    left: 527px;
+    left: 532px;
 }
 
 .panel a {
@@ -175,7 +176,7 @@ header {
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
-    font-family: tahoma;
+    font-family: arial;
 
 }
 
@@ -193,10 +194,11 @@ header {
     display: none; /* скрываем выпадающе меню */
     position: absolute; 
     left: -10px;
-    top: 24px; 
+    top: 28px; 
     width: 160px;
     background: #303030;
     box-shadow: 0 0px 6px #000000;
+    
 }
  .panel ul li ul li {
     float: none;
