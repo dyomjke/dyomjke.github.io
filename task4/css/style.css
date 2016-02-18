@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 1000px;
-    margin: 0 auto;  
+    float: left;
     background-image: url("../img/bg-container.jpg");
     background-repeat: repeat-y;
     
@@ -228,8 +228,10 @@ nav {
 }
 
 main {
-    clear:right;
-    width: 578px;
+    /*clear:right;*/
+    float: left;
+    width: 581px;
+    background-color: #ffffff;
 }
 
 aside {
@@ -259,6 +261,7 @@ aside p {
 }
 
 footer {
+    clear: both;
     margin-top: 5px;
     height: 30px;
 }
