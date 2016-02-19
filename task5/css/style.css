@@ -12,7 +12,6 @@
 }
 
 
-
 * {
 	font-family: 'helvetica neue', 'sans-serif', arial;
 }
@@ -31,10 +30,64 @@ header {
 	background-repeat: repeat-y;
 }
 
-.left-nav li{
-	display: inline-block;
+.left-nav {
+	float: left;
+	height: 35px;
+	margin-left: 460px;
+
 }
 
+.left-nav li {
+	display: inline-block;
+	height: 36px;
+}
+
+.left-nav li:nth-child(5) {
+	padding: 0 11px 0 12px;
+	border-right: solid #56a2dc 1px;
+}
+
+.left-nav li:nth-child(6) {
+	margin-left: 5px;
+	padding: 0 11px 0 25px;
+	background-image: url(../img/flag.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.left-nav li:last-child {
+	background-color: rgba(66,153,210,0.5);
+	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	border-bottom: solid #4399d3 1px;
+	border-right: solid #4399d3 1px;
+	border-left: solid #4399d3 1px;
+}
+
+
+
+.left-nav a {
+	display: block;
+	text-decoration: none;
+	color: #60b5ed;
+	padding: 11px 10px;
+}
+
+.left-nav li:nth-child(6) a,
+.left-nav li:nth-child(7) a {
+	color:  #fff;
+}
+
+
+
+
+.left-nav span {
+	text-decoration: underline;
+}
+
+.left-nav  li:hover a {
+	background-color: rgba(78,171,218,0.7);
+	color:#fff;
+}
 
 
 
@@ -47,6 +100,7 @@ header {
 	background-image: url(../img/bg.png);
 	box-shadow: 4px 4px 10px #1c1c1c;
 }
+
 
 
 
