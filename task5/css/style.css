@@ -58,6 +58,7 @@ header {
 .left-nav li:last-child {
 	background-color: rgba(66,153,210,0.5);
 	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	height: 35px;
 	border-bottom: solid #4399d3 1px;
 	border-right: solid #4399d3 1px;
 	border-left: solid #4399d3 1px;
@@ -89,8 +90,60 @@ header {
 	color:#fff;
 }
 
+/*Container*/
+
+.inputs {
+	width:300px;
+	margin: 0 auto;
+}
+
+ .form {
+	background: linear-gradient(to top, #111111, #100f0f);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid #494948 1px;
+	width: 275px;
+	height: 33px;
+	margin-left: 11px;
+	margin-top: 20px;
+	color: #fff;
+}
 
 
+
+
+
+.form:focus {
+	background: linear-gradient(to top, #1f5384, #1f5384);
+	border-radius: 3px;
+	box-shadow: 4px 4px 10px #1c1c1c;
+	color: #fff;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid #699ccd 1px;
+	box-shadow: 0px 0px 10px #699ccd;
+}
+
+.check {
+	margin-top: 20px;
+	margin-left: 11px;
+}
+
+ .submit {
+ 	display: block;
+	margin: 0px auto;
+	margin-top: 20px;
+	height: 30px;
+	width: 148px;
+	border: solid #67c6e6 1px;
+	border-radius: 2px;
+	background: linear-gradient(to top, #2e7ac4, #50aedb);
+	box-shadow: 0px 0px 2px #6bb8e7;
+	font-weight: bold;
+	color: #fff;
+	
+}
 /*-------WRAPPER------------------------------------------*/
 .wrapper {
 	/*position: absolute;*/
@@ -123,7 +176,7 @@ header {
 }
 
 .head {
-	widows: 560px;
+	width: 560px;
 	height: 59px;
 	font-size: 24px;
 	color: #fff;
@@ -136,13 +189,26 @@ header {
 }
 
 .log-face {
-	widows: 560px;
+	width: 560px;
 	height: 115px;
-	text-align: center;
 }
 
-.log-face img {
+.log-face p {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
 	padding-top: 20px;
+}
+
+ .check {
+ 	width: 15px;
+ 	height: 15px;
+	color: #fff;
+}
+
+span {
+	margin-bottom: 2px;
+	color:#fff;
 }
 /*---------CONTAINER---END------------------*/
 
