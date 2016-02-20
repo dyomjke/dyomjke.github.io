@@ -121,6 +121,29 @@ header {
 	height: 614px;
 	background-color: rgba(15,15,15,0.7);
 }
+
+.head {
+	widows: 560px;
+	height: 59px;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	border-bottom: solid #fff 1px;
+}
+
+.head p {
+	padding-top: 20px;
+}
+
+.log-face {
+	widows: 560px;
+	height: 115px;
+	text-align: center;
+}
+
+.log-face img {
+	padding-top: 20px;
+}
 /*---------CONTAINER---END------------------*/
 
 /**/
