@@ -107,7 +107,7 @@ header {
 	height: 33px;
 	margin-left: 11px;
 	margin-top: 20px;
-	color: #fff;
+	color: #cccccc;
 }
 
 
@@ -181,7 +181,7 @@ header {
 	font-size: 24px;
 	color: #fff;
 	text-align: center;
-	border-bottom: solid #fff 1px;
+	border-bottom: solid #b3bfa7 1px;
 }
 
 .head p {
@@ -190,25 +190,72 @@ header {
 
 .log-face {
 	width: 560px;
-	height: 115px;
+	height: 100px;
 }
 
 .log-face p {
 	padding-left: 0px;
 	padding-right: 0px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 32px;
+}
+
+.lines {
+	height: 20px;
+}
+.left-line,
+.right-line {
+	width: 122px;
+	height: 1px;
+	background-color: #666666;
+	border-bottom: solid black 1px;
+}
+.ou {
+	clear: right;
+	float: left;
+	margin: 0 auto;
+	width: 20px;
+	clear: right;
+	display: block;
+	color: #999999;
+	padding-left: 7px;
+	font-weight: bold;
+}
+
+
+.left-line {
+	float: left;
+	margin-left: 141px;
+	margin-top: 6px;
+}
+.right-line {
+	float: right;
+	margin-right: 141px;
+	margin-top: 6px;
 }
 
  .check {
  	width: 15px;
  	height: 15px;
-	color: #fff;
+	color: #cccccc;
 }
 
 span {
 	margin-bottom: 2px;
 	color:#fff;
+}
+
+.text {
+	width: 305px;
+	height: 65px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+	color: #cccccc;
+}
+.text p {
+	text-align: center;
 }
 /*---------CONTAINER---END------------------*/
 
