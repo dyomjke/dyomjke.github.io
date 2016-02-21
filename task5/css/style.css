@@ -47,22 +47,14 @@ header {
 	border-right: solid #56a2dc 1px;
 }
 
-.left-nav li:nth-child(6) {
+/*.left-nav li:nth-child(6) {
 	margin-left: 5px;
 	padding: 0 11px 0 25px;
 	background-image: url(../img/flag.png);
 	background-position: left center;
 	background-repeat: no-repeat;
-}
+}*/
 
-.left-nav li:last-child {
-	background-color: rgba(66,153,210,0.5);
-	background: linear-gradient(to top, #2e7ac4, #51b1dc);
-	height: 35px;
-	border-bottom: solid #4399d3 1px;
-	border-right: solid #4399d3 1px;
-	border-left: solid #4399d3 1px;
-}
 
 
 
@@ -72,6 +64,7 @@ header {
 	color: #60b5ed;
 	padding: 11px 10px;
 }
+
 
 .left-nav li:nth-child(6) a,
 .left-nav li:nth-child(7) a {
@@ -85,11 +78,66 @@ header {
 	text-decoration: underline;
 }
 
-.left-nav  li:hover a {
+.left-nav li:hover a {
 	background-color: rgba(78,171,218,0.7);
 	color:#fff;
+	transition: 0.65s;
+	font-weight: 600;
 }
 
+.right-nav {
+	margin-right: 20px;
+	height: 36px;
+}
+
+.right-nav li {
+	display:block;
+	float:left;
+	margin-left: 15px;
+	height: 35px;
+	padding: 0 11px 0 12px;
+}
+
+.right-nav li:first-child {
+	margin-left: 5px;
+}
+.right-nav li:hover a:first-child {
+	font-weight: 600;
+	transition: 0.5s;
+	background-size: 24%;
+}
+
+
+}
+.rigt-nav li a{
+	display: block;
+	padding-top: 7px;
+}
+.flag {
+	display: block;
+	padding: 5px 0 0 40px;
+	height: 35px;
+	background-image: url(../img/flag.png);
+	background-repeat: no-repeat;
+	background-position: left 40%;
+}
+
+.right-nav li:last-child {
+	background-color: rgba(66,153,210,0.5);
+	background: linear-gradient(to top, #2e7ac4, #51b1dc);
+	height: 35px;
+	border-bottom: solid #4399d3 1px;
+	border-right: solid #4399d3 1px;
+	border-left: solid #4399d3 1px;
+}
+
+.right-nav a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding-top: 10px;
+	/*padding: 11px 0px;*/
+}
 
 
 /*-------WRAPPER------------------------------------------*/
@@ -143,6 +191,7 @@ header {
 	padding-top: 32px;
 }
 
+
 .lines {
 	height: 20px;
 }
@@ -188,6 +237,10 @@ span {
 	color:#fff;
 }
 
+.top {
+	font-weight: 600;
+	text-decoration: underline;
+}
 .inputs {
 	width:275px;
 	margin: 0 auto;
@@ -207,7 +260,8 @@ span {
 	color: #cccccc;
 }
 
-.form:focus {
+.form:focus,
+.submit:focus {
 	background: linear-gradient(to top, #1f5384, #1f5384);
 	border-radius: 3px;
 	box-shadow: 4px 4px 10px #1c1c1c;
@@ -216,6 +270,7 @@ span {
 	border-left: none;
 	border-bottom: solid #699ccd 1px;
 	box-shadow: 0px 0px 10px #699ccd;
+	transition: 0.6s;
 }
 
 .check {
