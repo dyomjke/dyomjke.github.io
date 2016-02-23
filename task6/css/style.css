@@ -1,0 +1,72 @@
+* {
+	font-family: 'Lucida sans unicode', arial, tahoma;
+} /*Шрифты на страничке*/
+
+body {
+	width: 1000px;
+	height: 1310px;
+	margin: 0 auto;
+	border: solid black 1px;
+}
+/*Header*/
+/* Top bar*/
+.topbar {
+	width: 908px;
+	height: 54px;
+	border: solid black 1px;
+	margin: 0 auto;
+}
+
+.contacts {
+	float: left;
+	padding-left: 31px;
+	width: 267px;
+	height: 54px;
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: 1.98% 57%;
+}
+/* Список с телефонами*/
+.tel li {
+	font-family: arial;
+	display: inline-block;
+	font-size: 19px;
+	padding-top: 21px;
+	color:#0c3357;
+}
+
+/* Панель Формы для входа*/
+.login {
+	float: left;
+	margin-left: 15px;
+	margin-top: 16px;
+	width: 495px;
+	height: 26px;
+	background: linear-gradient(to top, #0c3357, #1f6787);
+	font-size: 13px;	
+	border-radius: 4px;
+}
+
+/*Формы логин и пароль*/
+
+.log,
+.log2 {
+	margin-left: 4px;
+	margin-top: 2px;
+	width: 106px;
+	height: 12px;
+	font-size: 10.91px;
+	padding-left:3px;
+	border-radius: 2px;
+}
+.log2 {
+	margin-left: 2px;
+}
+
+form {
+	margin-left: 23px;
+}
+
+
+/*End of top bar*/
+/*End of header*/

@@ -17,7 +17,6 @@
 }
 
 body {
-	background-color: #282828;
 	font-family: 'helvetica neue';
 	font-size: 14px;
 
@@ -244,7 +243,7 @@ span {
 .inputs {
 	width:275px;
 	margin: 0 auto;
-	padding-right: 0;
+	padding-left: 5px;
 }
 
  .form {
@@ -258,6 +257,7 @@ span {
 	border-left: none;
 	border-bottom: solid #494948 1px;
 	color: #cccccc;
+	text-indent: 10px;
 }
 
 .form:focus,

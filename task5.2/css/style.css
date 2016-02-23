@@ -1,0 +1,25 @@
+
+body {
+	background: #282828;	
+}
+
+section {
+	margin: 20px auto 20px auto;
+	width: 716px;
+	height: 614px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	border: solid black 2px;
+	text-align: center;
+}
+td:hover {
+	background: yellow;
+	transition: 0.5s;
+	width: 150px;
+}
+td:click {
+	border-radius: 100px;
+}
