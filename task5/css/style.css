@@ -23,10 +23,13 @@ body {
 }
 /*--------HEADER---------------------------*/
 header {
-	width: 1215px;
+	width: 1349px;
 	height: 36px;
 	background-image: url(../img/bg-nav.jpg);
 	background-repeat: repeat-x;
+}
+nav {
+	margin: 0px 0px 0px 110px;
 }
 
 .left-nav {
@@ -85,7 +88,7 @@ header {
 }
 
 .right-nav {
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 	height: 36px;
 }
 
@@ -142,10 +145,12 @@ header {
 /*-------WRAPPER------------------------------------------*/
 .wrapper {
 	position: relative;
-	margin: -0 auto;
-	width: 1215px;
+	margin: 0 auto;
+	width: 1349px;
 	height: 1064px;
 	background-image: url(../img/bg.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
 	box-shadow: 4px 4px 10px #1c1c1c;
 }
 
@@ -158,8 +163,8 @@ header {
 .container {
 	position: absolute;
 	top:21.14%;
-	left: 26.95%;
-	margin: auto;
+	left: 29.95%;
+	margin: 0 auto;
 	width: 560px;
 	height: 614px;
 	background-color: rgba(15,15,15,0.7);
